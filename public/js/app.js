@@ -2,7 +2,6 @@ const search = document.querySelector('input')
 const msgOne = document.getElementById('msg-1')
 const msgTwo = document.getElementById('msg-2')
 
-
 const weatherForm = document.querySelector('form')
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();
